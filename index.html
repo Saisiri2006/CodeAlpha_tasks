@@ -3,31 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcard Quiz App</title>
+    <title>Random Quote Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Flashcard Quiz</h1>
 
-    <div class="flashcard">
-        <p id="cardText">Question will appear here</p>
+    <div class="container">
+        <h2>Random Quote Generator</h2>
+
+        <div class="quote-box">
+            <p id="quote-text">Quote will appear here...</p>
+            <p id="quote-author">— Author</p>
+        </div>
+
+        <button id="newQuoteBtn">New Quote</button>
     </div>
 
-    <button id="toggleBtn">Show Answer</button>
-
-    <div class="controls">
-        <button id="prevBtn">Previous</button>
-        <button id="nextBtn">Next</button>
-    </div>
-
-    <hr>
-
-    <h2>Add / Edit Flashcards</h2>
-    <input type="text" id="questionInput" placeholder="Enter question">
-    <input type="text" id="answerInput" placeholder="Enter answer">
-    <button id="addBtn">Add Flashcard</button>
-    <button id="deleteBtn">Delete Flashcard</button>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
